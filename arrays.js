@@ -35,5 +35,5 @@ function removeElementFromBeginningOfArray(inputArray) {
 }
 
 function removeElementFromEndOfArray(inputArray) {
-    var outputArray = inputArray.slice(0, -1);
+    var outputArray = inputArray.slice(0, inputArray.length - 1);
 }
